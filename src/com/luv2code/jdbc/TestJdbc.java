@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 
 public class TestJdbc {
 	public static void main(String[] args) {
+
+		// making connection to Postgresql
 		String jdbcUrl = "jdbc:postgresql://localhost:5432/hb_student_tracker";
 		String user = "hbstudent";
 		String pass = "hbstudent";
