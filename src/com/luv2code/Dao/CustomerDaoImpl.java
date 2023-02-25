@@ -8,8 +8,8 @@ import java.util.List;
 public class CustomerDaoImpl implements CustomerDAO{
 
     // need to inject the session factory
-    @Autowired
-    private SessionFactory sessionFactory;git
+    //@Autowired
+    private SessionFactory sessionFactory;
 
 
 
