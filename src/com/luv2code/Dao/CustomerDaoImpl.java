@@ -8,7 +8,7 @@ import java.util.List;
 public class CustomerDaoImpl implements CustomerDAO{
 
     // need to inject the session factory
-
+    // just for an example
     private SessionFactory sessionFactory;
 
     // It does not work as expected - OK
