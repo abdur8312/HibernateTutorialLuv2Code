@@ -7,6 +7,7 @@ public class TestJdbc {
 	public static void main(String[] args) {
 		
 		// Hi I edited it for Github purpose
+		// Nice!!!
 		String jdbcUrl = "jdbc:postgresql://localhost:5432/hb_student_tracker";
 		String user = "hbstudent";
 		String pass = "hbstudent";
