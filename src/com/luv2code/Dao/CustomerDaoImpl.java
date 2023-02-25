@@ -8,10 +8,10 @@ import java.util.List;
 public class CustomerDaoImpl implements CustomerDAO{
 
     // need to inject the session factory
-    @Autowired
+
     private SessionFactory sessionFactory;
 
-    // It does not work as expected
+    // It does not work as expected - OK
     @Override
     public List<Customer> getCustomers() {
 
