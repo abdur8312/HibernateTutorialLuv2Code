@@ -4,7 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import com.luv2code.hibernate.demo.Entity.Student;
+import com.luv2code.hibernate.Entity.Student;
 
 public class DeleteStudentDemo {
 

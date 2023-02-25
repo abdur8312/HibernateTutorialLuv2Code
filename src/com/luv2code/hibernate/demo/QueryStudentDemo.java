@@ -1,12 +1,11 @@
 package com.luv2code.hibernate.demo;
 
-import java.util.List;
-
+import com.luv2code.hibernate.Entity.Student;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import com.luv2code.hibernate.demo.Entity.Student;
+import java.util.List;
 
 public class QueryStudentDemo {
 
