@@ -9,10 +9,9 @@ public class CustomerDaoImpl implements CustomerDAO{
 
     // need to inject the session factory
     @Autowired
-    private SessionFactory sessionFactory;git
+    private SessionFactory sessionFactory;
 
-
-
+    // It does not work as expected
     @Override
     public List<Customer> getCustomers() {
 

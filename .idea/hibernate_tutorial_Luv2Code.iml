@@ -58,7 +58,9 @@
           <root url="jar://$MODULE_DIR$/lib/hibernate-core-5.6.5.Final.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/hibernate-core-5.6.5.Final-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
